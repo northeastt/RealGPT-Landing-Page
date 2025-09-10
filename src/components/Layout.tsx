@@ -47,6 +47,12 @@ export default function Layout({ children }: LayoutProps) {
               >
                 Terms of Use
               </Link>
+              <Link 
+                to="/support" 
+                className="text-gray-600 hover:text-black text-sm transition-colors focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 rounded"
+              >
+                Support
+              </Link>
             </nav>
           </div>
         </div>
